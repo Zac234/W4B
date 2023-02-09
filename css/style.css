@@ -1,0 +1,16 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+#page_head{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+}
+#logo{
+    justify-self: start;
+    align-self:self-start
+}
+#menu{
+    justify-self: end;
+    align-self: end;
+}
