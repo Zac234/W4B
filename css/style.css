@@ -258,3 +258,25 @@
     justify-self: center;
 }
 
+/* this will be the final testimonialcss code for section 4*/
+
+#test_3{
+    display: grid;
+    background-color: darkseagreen;
+    border-radius: 50px;
+    height: 500px;
+    margin-top: 10px;
+}
+#testimonial_3{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius:100px ;
+    justify-self: center;
+    margin-top: 50px;
+
+}
+#name_3{
+    justify-self: center;
+}
+
