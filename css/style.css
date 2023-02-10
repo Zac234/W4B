@@ -236,5 +236,25 @@
     justify-self: center;
 
 }
+/*this is the code for the second testimonial on mobile*/
 
+#test_2{
+    display:grid;
+    background-color: #FFE7C4;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+#testimonial_2{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius:100px ;
+    justify-self: center;
+    margin-top: 50px;
+
+}
+#name_2{
+    justify-self: center;
+}
 
