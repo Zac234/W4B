@@ -1,6 +1,6 @@
 *{
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
 }
 /*this is the coding for the page head of W4B*/
 
@@ -8,6 +8,8 @@
 #page_head{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    background-color: #0084FF;
+    color: antiquewhite;
 }
 #logo{
     justify-self: start;
@@ -22,12 +24,15 @@
 #page_content{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    
+
 }
 #demo_app{
     display:grid;
     background-color: #B8DDFF;
     color: #0084FF;
     text-align: center;
+    margin: 10px;
 
 }
 #demo_app>p{
@@ -60,18 +65,61 @@
 
 .other_sec{
     display: grid;
+    justify-content: center;
+    margin:10px;
     
 }
 #coding{
     background-color: #CAF0DB;
     color: #54C788;
     font-weight: 900;
-    justify-content: center;
+    
 }
 #code{
     height: 100px;
     width: 100px;
     
+}
+
+/*this is code for the webdiesgin section*/
+
+#web_design{
+    display:grid;
+    background-color: #FFD2D2;
+    color: #FF8A8A;
+    font-weight: 900;
+}
+#Web{
+    height: 100px;
+    width: 100px;
+
+}
+
+/*this is the code for the deveoplement section*/
+
+#Development{
+    display: grid;
+    background-color: #FFE7C4;
+    color: #FFC166;
+    font-weight: 900;
+}
+#Dev{
+    height: 100px;
+    width:100px;
+}
+
+
+/*this will be the code for the Branding section on mobile*/
+
+#Branding{
+    display: grid;
+    background-color: #D5D4F5;
+    color: #9693E6;
+    font-weight: 900;
+}
+#Brand{
+    height:100px;
+    width: 100px;
 }
 
 
