@@ -58,4 +58,20 @@
 /*this will be code dealing witht he other smaller containers for the website*/
 
 
+.other_sec{
+    display: grid;
+    
+}
+#coding{
+    background-color: #CAF0DB;
+    color: #54C788;
+    font-weight: 900;
+    justify-content: center;
+}
+#code{
+    height: 100px;
+    width: 100px;
+    
+}
+
 
