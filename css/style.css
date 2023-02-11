@@ -436,4 +436,22 @@
     width: 25px;
 }
 
+/*this is the code for the last section*/
+
+#section_7{
+    display:grid;
+    justify-items: center;
+    margin-top: 25px;
+    background-color: #9693E6;
+}
+#section_7>h1{
+    font-size: 5em;
+    color: #FFC166;
+}
+#section_7>button{
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+}
+
 
