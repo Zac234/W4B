@@ -404,4 +404,36 @@
 }
 
 
+/*this is the css cod for the boss section*/
+
+
+
+#boss{
+    height:200px;
+    width: 200px;
+    z-index: 0;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+#left_q{
+    z-index: 1;
+    height: 80px;
+    width: 80px;
+    justify-self: center;
+    position: relative;
+   right: 60px;
+   bottom: 120px;
+   
+
+}
+#boss_button{
+    height: 30px;
+    width: 225px;
+    background-color: #9693E6;
+}
+#linked{
+    height: 25px;
+    width: 25px;
+}
+
 
